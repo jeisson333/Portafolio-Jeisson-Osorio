@@ -1,12 +1,14 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import Section from "../Section/Section";
+import Main from "../Main/Main.jsx";
+import Footer from "../Footer/Footer.jsx";
 
 const Body = () => {
   return (
     <div className="bg-sky-50 text-stone-900 dark:bg-primary dark:text-cyan-50 font-mono">
       <Navbar />
-      <Section />
+      <Main />
+      <Footer />
     </div>
   );
 };

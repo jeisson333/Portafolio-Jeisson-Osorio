@@ -40,7 +40,11 @@ const Navbar = () => {
     };
   }, []);
 
-  const handleLinkClick = () => {
+  const handleLinkClick = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
     menuItemsRef.current.classList.add("hidden");
     menuButtonSpansRef.current.forEach((span) => {
       span.classList.remove("animado");
@@ -70,8 +74,8 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className="flex justify-between py-10 m-auto px-10 text-lg font-medium tracking-widest md:items-center relative">
-        <a href="">
+      <nav className="flex justify-between py-10 m-auto px-10 text-lg font-medium tracking-widest md:items-center relative ">
+        <a href="./">
           <img
             src="https://static.vecteezy.com/system/resources/previews/016/865/530/non_2x/backend-development-line-gradient-circle-background-icon-vector.jpg"
             alt=""
@@ -84,24 +88,33 @@ const Navbar = () => {
         >
           <ul className="flex h-5/6 flex-col justify-around md:flex-row md:justify-center w-full">
             <li className="md:px-5 hover:text-sky-600">
-              <a href="" onClick={handleLinkClick}>
+              <button onClick={() => handleLinkClick("quienSoySection")}>
                 Quien Soy
-              </a>
+              </button>
             </li>
             <li className="md:px-5 hover:text-sky-600">
-              <a href="" onClick={handleLinkClick}>
+              <button
+                href="#"
+                onClick={() => handleLinkClick("experienciaSection")}
+              >
                 Experiencia
-              </a>
+              </button>
             </li>
             <li className="md:px-5 hover:text-sky-600">
-              <a href="" onClick={handleLinkClick}>
+              <button
+                href="#"
+                onClick={() => handleLinkClick("proyectosSection")}
+              >
                 Proyectos
-              </a>
+              </button>
             </li>
             <li className="md:px-5 hover:text-sky-600">
-              <a href="" onClick={handleLinkClick}>
+              <button
+                href="#"
+                onClick={() => handleLinkClick("contactoSection")}
+              >
                 Contactame
-              </a>
+              </button>
             </li>
           </ul>
 

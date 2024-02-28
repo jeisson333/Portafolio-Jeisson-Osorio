@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import Main from "../Main/Main.jsx";
+import Main from "../Selects/Selects.jsx";
 import Footer from "../Footer/Footer.jsx";
 
 const Body = () => {

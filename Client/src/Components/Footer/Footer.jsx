@@ -4,7 +4,7 @@ import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-      <footer className=" text-center mt-12 mt-5">
+      <footer className=" text-center mt-12 md-5">
         <p className="hover:text-sky-500">
           Diseñado & Desarrollo por Jeisson Osorio
         </p>

@@ -1,6 +1,5 @@
-import Navbar from "./Components/Navbar/Navbar";
 import Body from "./Components/Body/Body";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (

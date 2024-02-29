@@ -7,8 +7,8 @@ import {
   FaRegEye,
 } from "react-icons/fa";
 import { LiaCaretRightSolid } from "react-icons/lia";
-import pCer03 from "../../../public/Cer03.png";
-import fotoPrincipal from "../../../public/image.png";
+import pCer03 from "../../assets/Cer03.png";
+import fotoPrincipal from "../../assets/image.png";
 
 const scrollToContact = () => {
   const contactSection = document.getElementById("contactoSection");

@@ -7,8 +7,8 @@ import {
   FaRegEye,
 } from "react-icons/fa";
 import { LiaCaretRightSolid } from "react-icons/lia";
-import pCer03 from "../../assets/Cer03.png";
-import fotoPrincipal from "../../assets/image.png";
+// import pCer03 from "../../assets/Cer03.png";
+// import fotoPrincipal from "../../assets/image.png";
 
 const scrollToContact = () => {
   const contactSection = document.getElementById("contactoSection");
@@ -104,7 +104,7 @@ const Section = () => {
         <div className={`my-10 w-full`}>
           {/*flex*/}
           <img
-            src={fotoPrincipal}
+            src="https://avatars.githubusercontent.com/u/64706466?s=96&v=4"
             alt="Foto Jeisson Osorio"
             className="w-[300px] h-[320px] m-auto bg-cover rounded-lg lg:w-[70%] lg:h-[70%] lg:bg-center lg:bg-no-repeat lg:bg-[length:617px_840px]"
           />
@@ -244,7 +244,7 @@ const Section = () => {
         <div className="border-1 rounded-lg bg-white dark:bg-slate-800 m-5 ">
           <div className="m-2">
             <img
-              src={pCer03}
+              src={"https://cer03.vercel.app/assets/logocer03-oSEeFvK4.jpeg"}
               alt="Cer03"
               className="opacity-80 hover:opacity-100"
             />
@@ -290,7 +290,7 @@ const Section = () => {
         <div className="border-1 rounded-lg bg-white dark:bg-slate-800 m-5 ">
           <div className="m-2">
             <img
-              src={pCer03}
+              src="https://cer03.vercel.app/assets/logocer03-oSEeFvK4.jpeg"
               alt="Cer03"
               className="opacity-80 hover:opacity-100"
             />
@@ -336,7 +336,7 @@ const Section = () => {
         <div className="border-1 rounded-lg bg-white dark:bg-slate-800 m-5 ">
           <div className="m-2">
             <img
-              src={pCer03}
+              src="https://cer03.vercel.app/assets/logocer03-oSEeFvK4.jpeg"
               alt="Cer03"
               className="opacity-80 hover:opacity-100"
             />

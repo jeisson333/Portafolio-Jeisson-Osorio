@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import { LiaCaretRightSolid } from "react-icons/lia";
 import pCer03 from "./Cer03.png";
-import fotoPrincipal from "./BRB_1510.jpg";
+import fotoPrincipal from "./image.png";
 
 const scrollToContact = () => {
   const contactSection = document.getElementById("contactoSection");
